@@ -1,0 +1,15 @@
+html {
+  font-family: var(--sl-font-sans);
+  color: rgb(var(--sl-color-neutral-0));
+}
+
+html, body { background: rgb(var(--sl-color-neutral-50)); }
+
+main {
+  display: flex;
+  place-content: start center;
+}
+
+apollo-app {
+  width: clamp(400px, 90vw, 90vw);
+}

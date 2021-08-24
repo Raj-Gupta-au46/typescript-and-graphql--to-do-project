@@ -1,0 +1,5 @@
+fragment todo on Todo {
+  id
+  name
+  complete
+}

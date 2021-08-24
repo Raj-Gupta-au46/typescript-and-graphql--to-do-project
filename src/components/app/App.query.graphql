@@ -1,0 +1,16 @@
+query AppQuery($todoId: ID) {
+  location @client {
+    pathname
+    todoId @export(as: "todoId")
+  }
+  todos {
+    id
+    name
+    complete
+  }
+  todo(todoId: $todoId) {
+    id
+    name
+    complete
+  }
+}
