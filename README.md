@@ -1,5 +1,7 @@
 # Apollo Elements Todo App
 
+Todo app written with [Apollo Elements](https://apolloelements.dev/blog/todo-app/).
+
 ## Getting Started
 
 ```bash
