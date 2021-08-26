@@ -3,8 +3,8 @@
 ## Getting Started
 
 ```bash
-git clone git@github.com:apollo-elements/todo-apollo.git
-cd todo-apollo
+git clone git@github.com:apollo-elements/todo-app.git
+cd todo-app
 npm ci
 npm start
 ```
